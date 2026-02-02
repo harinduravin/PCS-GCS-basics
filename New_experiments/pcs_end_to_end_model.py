@@ -293,7 +293,7 @@ def plot_constellation_wlabels(points, probabilities, title):
     plt.gca().set_aspect('equal', adjustable='box')
     plt.tight_layout()
     plt.show()
-    plt.savefig('const.png')
+    # plt.savefig('const.png')
 
 def generate_ldpc_H_matrix(n_ldpc: int, rate: float, q: int, file_path: str) -> np.ndarray:
     # Compute derived parameters
