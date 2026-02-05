@@ -112,24 +112,12 @@ class EndToEndSystem_bitwise_PAS(Model):
         s, symbol_prob, norm_C_points, symbol_prob_basic = self.sampling(ebno_db)
         self.batch_size = norm_C_points.shape[0]
 
-        # log_odds = tf.math.log((1.0 - 0.8125) / 0.8125)  # shape: scalar or tensor
-        # log_odds = tf.reshape(log_odds, (-1, 1, 1))
-        # log_odds_tiled = tf.tile(log_odds,[1, self.N, 1])
-
-        # Use tf.concat to place log-odds in the correct position
-        # self.prior_values = tf.concat([
-        #     log_odds_tiled,
-        #     tf.zeros((self.batch_size, self.N, self.bits_per_symbol-1), dtype=tf.float32)
-        # ], axis=-1)
-
-
         # # Marginalize: P(b_j=1) = sum_{s} P(s) * I[b_j(s)=1]
         tiled_bit_labels = tf.tile(tf.expand_dims(self.bit_labels, 0),[self.batch_size, 1, 1])
         p_b1 = tf.matmul(symbol_prob[:, None],tiled_bit_labels)
         # # Compute LLRs
         self.prior_values = tf.tile(tf.math.log(p_b1 / (1.0 - p_b1)),[1, self.N, 1])
-        #
-        # self.prior_values =
+
 
         indices = tf.argmax(s, axis=2, output_type=tf.int64)  # use int64 here!
 
