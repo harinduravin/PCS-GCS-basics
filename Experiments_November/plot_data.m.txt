@@ -1,0 +1,56 @@
+clear; clc; close all;
+
+[file, path] = uigetfile('*.dat', 'Select phase noise DAT file');
+if isequal(file,0), return; end
+
+txt = readlines(fullfile(path,file));
+
+% Find all trace data sections
+idx = find(startsWith(txt, "Values;"));
+
+figure;
+hold on;
+
+for i = 1:1
+
+    % Determine end of current trace
+    if i < length(idx)
+        last = idx(i+1)-1;
+    else
+        last = length(txt);
+    end
+
+    % Extract numerical data
+    data = zeros(last-idx(i),2);
+    n = 0;
+
+    for k = idx(i)+1:last
+        values = sscanf(txt{k}, '%f;%f');
+
+        if numel(values) == 2
+            n = n+1;
+            data(n,:) = values.';
+        end
+    end
+
+    data = data(1:n,:);
+
+    % Plot current trace
+    offset = 20*log10(120/26);
+    semilogx(data(:,1),data(:,2)+offset,'LineWidth',1.2);
+end
+
+grid on;
+xlabel('Frequency Offset (Hz)');
+ylabel('Phase Noise (dBc/Hz)');
+title('Phase Noise Measurement');
+
+set(gca, 'XScale', 'log');
+
+drawnow;
+disp(get(gca, 'XScale'));
+% 
+% legend(compose('Trace %d',1:length(idx)), ...
+%        'Location','best');
+
+hold off;

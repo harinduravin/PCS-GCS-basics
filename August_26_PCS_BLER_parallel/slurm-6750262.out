@@ -1,0 +1,172 @@
+2026-05-31 22:35:25.083265: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:467] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+E0000 00:00:1780256125.170565 2739305 cuda_dnn.cc:8579] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+E0000 00:00:1780256125.178205 2739305 cuda_blas.cc:1407] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+W0000 00:00:1780256125.441749 2739305 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1780256125.441811 2739305 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1780256125.441822 2739305 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1780256125.441832 2739305 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+2026-05-31 22:35:26.138252: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+Multiprocessing PAS sweep: 32 workers, 32 Eb/N0 points, 3 PAPR values, channel=multipath
+2026-05-31 22:36:42.586365: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+[pool worker 23] 1 Eb/N0 points
+2026-05-31 22:36:42.587950: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+[pool worker 4] 1 Eb/N0 points
+2026-05-31 22:36:42.591219: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+2026-05-31 22:36:42.591295: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+[pool worker 8] 1 Eb/N0 points
+[pool worker 10] 1 Eb/N0 points
+2026-05-31 22:36:42.602490: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+[pool worker 31] 1 Eb/N0 points
+2026-05-31 22:36:42.602979: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+[pool worker 2] 1 Eb/N0 points
+2026-05-31 22:36:42.603505: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+[pool worker 9] 1 Eb/N0 points
+2026-05-31 22:36:42.612115: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+[pool worker 13] 1 Eb/N0 points
+2026-05-31 22:36:42.612835: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+[pool worker 27] 1 Eb/N0 points
+2026-05-31 22:36:42.615739: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+[pool worker 16] 1 Eb/N0 points
+2026-05-31 22:36:42.620034: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+[pool worker 28] 1 Eb/N0 points
+2026-05-31 22:36:42.620235: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+[pool worker 14] 1 Eb/N0 points
+2026-05-31 22:36:42.625654: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+[pool worker 19] 1 Eb/N0 points
+2026-05-31 22:36:42.628422: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+[pool worker 21] 1 Eb/N0 points
+2026-05-31 22:36:42.631436: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+[pool worker 0] 1 Eb/N0 points
+2026-05-31 22:36:42.633475: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+[pool worker 29] 1 Eb/N0 points
+2026-05-31 22:36:42.633778: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+[pool worker 15] 1 Eb/N0 points
+2026-05-31 22:36:42.634311: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+[pool worker 12] 1 Eb/N0 points
+2026-05-31 22:36:42.636114: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+2026-05-31 22:36:42.636194: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+[pool worker 11] 1 Eb/N0 points
+[pool worker 22] 1 Eb/N0 points
+2026-05-31 22:36:42.638403: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+[pool worker 17] 1 Eb/N0 points
+2026-05-31 22:36:42.639422: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+[pool worker 6] 1 Eb/N0 points
+2026-05-31 22:36:42.641214: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+[pool worker 20] 1 Eb/N0 points
+2026-05-31 22:36:42.642160: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+[pool worker 1] 1 Eb/N0 points
+2026-05-31 22:36:42.642430: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+[pool worker 25] 1 Eb/N0 points
+2026-05-31 22:36:42.644952: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+[pool worker 26] 1 Eb/N0 points
+2026-05-31 22:36:42.646104: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+[pool worker 7] 1 Eb/N0 points
+2026-05-31 22:36:42.646306: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+[pool worker 30] 1 Eb/N0 points
+2026-05-31 22:36:42.647489: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+[pool worker 24] 1 Eb/N0 points
+2026-05-31 22:36:42.648562: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+[pool worker 18] 1 Eb/N0 points
+2026-05-31 22:36:42.648796: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+2026-05-31 22:36:42.648893: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+[pool worker 3] 1 Eb/N0 points
+[pool worker 5] 1 Eb/N0 points
+[worker] PAPR=6.4 dB, 1 SNR points done
+[worker] PAPR=6.4 dB, 1 SNR points done
+[worker] PAPR=6.4 dB, 1 SNR points done
+[worker] PAPR=6.4 dB, 1 SNR points done
+[worker] PAPR=6.4 dB, 1 SNR points done
+[worker] PAPR=6.4 dB, 1 SNR points done
+[worker] PAPR=6.4 dB, 1 SNR points done
+[worker] PAPR=6.4 dB, 1 SNR points done
+[worker] PAPR=6.4 dB, 1 SNR points done
+[worker] PAPR=6.4 dB, 1 SNR points done
+[worker] PAPR=6.4 dB, 1 SNR points done
+[worker] PAPR=6.4 dB, 1 SNR points done
+[worker] PAPR=6.4 dB, 1 SNR points done
+[worker] PAPR=6.4 dB, 1 SNR points done
+[worker] PAPR=6.4 dB, 1 SNR points done
+[worker] PAPR=6.4 dB, 1 SNR points done
+[worker] PAPR=6.4 dB, 1 SNR points done
+[worker] PAPR=6.4 dB, 1 SNR points done
+[worker] PAPR=6.4 dB, 1 SNR points done
+[worker] PAPR=6.4 dB, 1 SNR points done
+[worker] PAPR=6.4 dB, 1 SNR points done
+[worker] PAPR=6.4 dB, 1 SNR points done
+[worker] PAPR=6.4 dB, 1 SNR points done
+[worker] PAPR=6.4 dB, 1 SNR points done
+[worker] PAPR=6.4 dB, 1 SNR points done
+[worker] PAPR=6.4 dB, 1 SNR points done
+[worker] PAPR=6.4 dB, 1 SNR points done
+[worker] PAPR=6.4 dB, 1 SNR points done
+[worker] PAPR=6.4 dB, 1 SNR points done
+[worker] PAPR=6.4 dB, 1 SNR points done
+[worker] PAPR=7.2 dB, 1 SNR points done
+[worker] PAPR=7.2 dB, 1 SNR points done
+[worker] PAPR=6.4 dB, 1 SNR points done
+[worker] PAPR=6.4 dB, 1 SNR points done
+[worker] PAPR=7.2 dB, 1 SNR points done
+[worker] PAPR=7.2 dB, 1 SNR points done
+[worker] PAPR=7.2 dB, 1 SNR points done
+[worker] PAPR=7.2 dB, 1 SNR points done
+[worker] PAPR=7.2 dB, 1 SNR points done
+[worker] PAPR=7.2 dB, 1 SNR points done
+[worker] PAPR=7.2 dB, 1 SNR points done
+[worker] PAPR=7.2 dB, 1 SNR points done
+[worker] PAPR=8.0 dB, 1 SNR points done
+[worker] PAPR=8.0 dB, 1 SNR points done
+[worker] PAPR=8.0 dB, 1 SNR points done
+[worker] PAPR=8.0 dB, 1 SNR points done
+[worker] PAPR=8.0 dB, 1 SNR points done
+[worker] PAPR=7.2 dB, 1 SNR points done
+[worker] PAPR=8.0 dB, 1 SNR points done
+[worker] PAPR=8.0 dB, 1 SNR points done
+[worker] PAPR=7.2 dB, 1 SNR points done
+[worker] PAPR=8.0 dB, 1 SNR points done
+[worker] PAPR=7.2 dB, 1 SNR points done
+[worker] PAPR=7.2 dB, 1 SNR points done
+[worker] PAPR=7.2 dB, 1 SNR points done
+[worker] PAPR=7.2 dB, 1 SNR points done
+[worker] PAPR=7.2 dB, 1 SNR points done
+[worker] PAPR=7.2 dB, 1 SNR points done
+[worker] PAPR=7.2 dB, 1 SNR points done
+[worker] PAPR=7.2 dB, 1 SNR points done
+[worker] PAPR=7.2 dB, 1 SNR points done
+[worker] PAPR=7.2 dB, 1 SNR points done
+[worker] PAPR=7.2 dB, 1 SNR points done
+[worker] PAPR=7.2 dB, 1 SNR points done
+[worker] PAPR=7.2 dB, 1 SNR points done
+[worker] PAPR=7.2 dB, 1 SNR points done
+[worker] PAPR=7.2 dB, 1 SNR points done
+[worker] PAPR=7.2 dB, 1 SNR points done
+[worker] PAPR=7.2 dB, 1 SNR points done
+[worker] PAPR=7.2 dB, 1 SNR points done
+[worker] PAPR=7.2 dB, 1 SNR points done
+[worker] PAPR=7.2 dB, 1 SNR points done
+[worker] PAPR=8.0 dB, 1 SNR points done
+[worker] PAPR=8.0 dB, 1 SNR points done
+[worker] PAPR=8.0 dB, 1 SNR points done
+[worker] PAPR=8.0 dB, 1 SNR points done
+[worker] PAPR=8.0 dB, 1 SNR points done
+[worker] PAPR=8.0 dB, 1 SNR points done
+[worker] PAPR=8.0 dB, 1 SNR points done
+[worker] PAPR=8.0 dB, 1 SNR points done
+[worker] PAPR=8.0 dB, 1 SNR points done
+[worker] PAPR=8.0 dB, 1 SNR points done
+[worker] PAPR=8.0 dB, 1 SNR points done
+[worker] PAPR=8.0 dB, 1 SNR points done
+[worker] PAPR=8.0 dB, 1 SNR points done
+[worker] PAPR=8.0 dB, 1 SNR points done
+[worker] PAPR=8.0 dB, 1 SNR points done
+[worker] PAPR=8.0 dB, 1 SNR points done
+[worker] PAPR=8.0 dB, 1 SNR points done
+[worker] PAPR=8.0 dB, 1 SNR points done
+[worker] PAPR=8.0 dB, 1 SNR points done
+[worker] PAPR=8.0 dB, 1 SNR points done
+[worker] PAPR=8.0 dB, 1 SNR points done
+[worker] PAPR=8.0 dB, 1 SNR points done
+[worker] PAPR=8.0 dB, 1 SNR points done
+[worker] PAPR=8.0 dB, 1 SNR points done
+Done in 7804.2 s. Saved 3 PAPR curves to ber_results_pcs_parallel/
